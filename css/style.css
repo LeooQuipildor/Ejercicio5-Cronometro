@@ -1,9 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to right bottom, #000000, #0b0b0b, #131313, #191919, #1f1f1f);
+    font-family: 'Bebas Neue', cursive;
 }
 
 main{
     flex-grow: 1;
+}
+
+.hoursAndMinutes p{
+    font-size: 100px;
+}
+.seconds p{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.buttonIniciar{
+    border: none;
+    border-radius: 15px;
+    width: 70px;
+    height: 35px;
+}
+
+.buttonReset{
+    border: none;
+    border-radius: 15px;
+    width: 70px;
+    height: 35px;
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .hoursAndMinutes p{
+        font-size: 200px;
+    }
+    .seconds p{
+        font-size: 100px;
+        padding-top: 100px;
+    }
+    .buttonIniciar{
+        width: 140px;
+        height: 70px;
+        font-size: 35px;
+    }
+    .buttonReset{
+        width: 140px;
+        height: 70px;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hoursAndMinutes p{
+        font-size: 300px;
+    }
+    .seconds p{
+        font-size: 150px;
+        padding-top: 150px;
+    }
+    .buttonIniciar{
+        width: 140px;
+        height: 70px;
+        font-size: 35px;
+    }
+    .buttonReset{
+        width: 140px;
+        height: 70px;
+        font-size: 35px;
+    }
 }
