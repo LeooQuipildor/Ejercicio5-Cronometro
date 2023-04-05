@@ -27,7 +27,7 @@ main{
     height: 35px;
 }
 
-.buttonReset{
+.buttonPausar{
     border: none;
     border-radius: 15px;
     width: 70px;
@@ -47,7 +47,7 @@ main{
         height: 70px;
         font-size: 35px;
     }
-    .buttonReset{
+    .buttonPausar{
         width: 140px;
         height: 70px;
         font-size: 35px;
@@ -67,7 +67,7 @@ main{
         height: 70px;
         font-size: 35px;
     }
-    .buttonReset{
+    .buttonPausar{
         width: 140px;
         height: 70px;
         font-size: 35px;
